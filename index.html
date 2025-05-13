@@ -3,34 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CashBet | Жирные кэфы</title>
+  <title>CashBet | Коэффициент дня</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f9fc;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      max-width: 480px;
+      width: 100%;
       text-align: center;
-      padding: 50px;
     }
     .logo {
-      max-width: 200px;
-      margin-bottom: 30px;
+      max-width: 150px;
+      margin-bottom: 25px;
     }
     h1 {
-      color: #333;
+      font-size: 26px;
+      margin-bottom: 10px;
     }
-    p {
-      color: #555;
-      font-size: 18px;
+    .highlight {
+      font-size: 22px;
+      font-weight: 600;
+      margin: 15px 0;
+      color: #ff4500;
+    }
+    .expert {
+      font-size: 14px;
+      color: #777;
+      margin-top: 20px;
     }
     .btn {
       display: inline-block;
-      padding: 15px 25px;
+      margin-top: 30px;
+      padding: 14px 24px;
       font-size: 18px;
       color: #fff;
       background-color: #ff4500;
+      border: none;
+      border-radius: 8px;
       text-decoration: none;
-      border-radius: 5px;
-      margin-top: 20px;
+      transition: background 0.3s;
     }
     .btn:hover {
       background-color: #e03e00;
@@ -38,9 +61,13 @@
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="CashBet Logo" class="logo">
-  <h1>🔥 Жирный коэффициент на сегодня!</h1>
-  <p>Инсайдерская аналитика от CashBet</p>
-  <a href="https://t.me/cashbets_first" class="btn">Жирные кэфы тут</a>
+  <div class="card">
+    <img src="logo.png" alt="CashBet" class="logo">
+    <h1>Жирный коэффициент на сегодня</h1>
+    <div class="highlight">Экспресс: П1 + ТБ(2.5) — кэф 9.4</div>
+    <p>Инсайдерская ставка, действует до 21:00</p>
+    <a href="https://t.me/cashbets_first" class="btn">Жирные кэфы тут</a>
+    <div class="expert">Анализ от бывшего сотрудника ФНЛ / CashBet Team</div>
+  </div>
 </body>
 </html>
